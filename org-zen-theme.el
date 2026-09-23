@@ -4,7 +4,7 @@
 ;;
 ;; Author: Taro Sato <okomestudio@gmail.com>
 ;; URL: https://github.com/okomestudio/org-zen-theme
-;; Version: 0.1.1
+;; Version: 0.1.2
 ;; Keywords: faces, themes, convenience
 ;; Package-Requires: ((emacs "31.1"))
 ;;

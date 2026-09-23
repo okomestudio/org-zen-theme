@@ -34,9 +34,10 @@
  'org-zen-light
  '( :background "#ffffff"
     :foreground "#000000"
-    :salient "#43676b"       ; 御召茶（おめしちゃ）
-    :muted "#9d896c"         ; 仙斎茶（せんさいちゃ）
-    :popout "#c8d5bb"        ; 柳鼠（やなぎねず）
+    :primary "#43676b"         ; 御召茶（おめしちゃ）
+    :primary-faded "#c8d5bb"   ; 柳鼠（やなぎねず）
+    :secondary "#9d896c"       ; 仙斎茶（せんさいちゃ）
+    :secondary-faded "#dcd3b2" ; 砂色（すないろ）
     ))
 
 (provide-theme 'org-zen-light)
