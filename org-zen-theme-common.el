@@ -79,7 +79,10 @@
     (defun org-zen-theme--face-remap ()
       (setq-local org-zen-theme--remap-cookie
                   (list (face-remap-add-relative 'default :background bg)
-                        (face-remap-add-relative 'fringe :background bg))))
+                        (face-remap-add-relative 'fringe :background bg)
+                        (face-remap-add-relative 'font-lock-comment-face
+                                                 :background bg
+                                                 :foreground secondary))))
 
     (defun org-zen-theme--on-enable (theme)
       (dolist (buf (buffer-list))
