@@ -37,12 +37,13 @@
     (custom-theme-set-faces
      theme
      `(org-archived ((t (:background ,bg :foreground ,secondary))))
-     `(org-block ((t (:background ,bg :foreground ,secondary-faded))))
-     `(org-block-begin-line ((t (:background ,bg :foreground ,secondary-faded))))
-     `(org-block-end-line ((t (:background ,bg :foreground ,secondary-faded))))
+     `(org-block ((t (:background ,bg :foreground ,secondary))))
+     `(org-block-begin-line ((t (:background ,bg :foreground ,secondary))))
+     `(org-block-end-line ((t (:background ,bg :foreground ,secondary))))
      `(org-document-info ((t (:background ,bg :foreground ,secondary))))
      `(org-document-info-keyword ((t (:background ,bg :foreground ,secondary))))
      `(org-document-title ((t (:background ,bg :foreground ,primary))))
+     `(org-done ((t (:background ,secondary :foreground ,bg :inverse-video t))))
      `(org-drawer ((t (:background ,bg :foreground ,secondary))))
      `(org-ellipsis ((t (:background unspecified :foreground unspecified))))
      `(org-hide ((t (:background ,bg :foreground ,bg))))
@@ -65,6 +66,7 @@
 
      `(org-modern-date-active ((t ( :background ,primary-faded :foreground ,primary
                                     :inherit org-modern-label ))))
+     `(org-modern-done ((t (:background ,secondary :foreground ,bg :inverse-video t))))
      `(org-modern-tag ((t (:background ,primary-faded :foreground ,primary))))
      `(org-modern-todo ((t (:background ,secondary :foreground ,bg))))
 
