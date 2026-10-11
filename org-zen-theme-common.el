@@ -72,7 +72,11 @@
 
      `(org-ref-cite-face ((t (:underline (:style dashes)))))
 
-     `(org-dividers-hl ((t (:background ,bg :foreground ,primary)))))
+     `(org-dividers-hl ((t (:background ,bg :foreground ,primary))))
+
+     `(or-struktur-default ((t (:background ,bg :foreground ,primary :weight normal))))
+     `(or-struktur-level ((t (:background ,bg :foreground ,primary :weight normal))))
+     )
 
     (custom-theme-set-variables
      theme
